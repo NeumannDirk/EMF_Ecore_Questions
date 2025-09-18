@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated libraryWithReplicatedBooks -->
+      <package
+            uri="http://www.kit.tva.metamodels/library"
+            class="libraryWithReplicatedBooks.LibraryWithReplicatedBooksPackage"
+            genModel="model/libraryWithReplicatedBooks.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated libraryWithReplicatedBooks -->
+      <package
+            uri="http://www.kit.tva.metamodels/book"
+            class="libraryWithReplicatedBooks.book.BookPackage"
+            genModel="model/libraryWithReplicatedBooks.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated libraryWithReplicatedBooks -->
+      <package
+            uri="http://www.kit.tva.metamodels/genre"
+            class="libraryWithReplicatedBooks.book.genre.GenrePackage"
+            genModel="model/libraryWithReplicatedBooks.genmodel"/>
+   </extension>
+
+</plugin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/Book/src-gen" creationIcons="false" editDirectory="/Book.edit/src-gen"
+    editorDirectory="/Book.editor/src-gen" modelPluginID="Book" modelName="Book" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="21.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>book.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Book" disposableProviderFactory="true" ecorePackage="book.ecore#/">
+    <genClasses ecoreClass="book.ecore#//Book">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute book.ecore#//Book/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute book.ecore#//Book/genre"/>
+    </genClasses>
+    <nestedGenPackages prefix="Genre" disposableProviderFactory="true" ecorePackage="book.ecore#//genre">
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="book.ecore#//genre/Genre">
+        <genEnumLiterals ecoreEnumLiteral="book.ecore#//genre/Genre/FANTASY"/>
+        <genEnumLiterals ecoreEnumLiteral="book.ecore#//genre/Genre/SCIENCE_FICTION"/>
+      </genEnums>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>

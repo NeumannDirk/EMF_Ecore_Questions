@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library:Library xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:library="http://www.kit.tva.metamodels/library" xmlns:book="http://www.kit.tva.metamodels/book"
+    xmlns:genre="http://www.kit.tva.metamodels/genre" name="LivingRoomShelf">
+  <book:books name="Harry Potter">
+    <genre:genre>FANTASY</genre:genre>
+  </book:books>
+  <book:books name="Star Wars">
+    <genre:genre>SCIENCE_FICTION</genre:genre>
+    <genre:genre>FANTASY</genre:genre>
+  </book:books>
+  <book:books name="The Matrix">
+    <genre:genre>SCIENCE_FICTION</genre:genre>
+  </book:books>
+</library:Library>

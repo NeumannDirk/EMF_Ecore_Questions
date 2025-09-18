@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ModelValidator
+Bundle-SymbolicName: ModelValidation
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.swt,
+ org.eclipse.jface,
+ Book,
+ org.eclipse.emf.ecore.xmi;bundle-version="2.38.0",
+ LibraryWithBooksAsLoadedResource,
+ org.junit,
+ junit-jupiter-api,
+ LibraryWithReplicatedBooks;bundle-version="0.1.0",
+ org.eclipse.emf.common
+Automatic-Module-Name: ModelValidator
+Bundle-RequiredExecutionEnvironment: JavaSE-21
